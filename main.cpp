@@ -33,7 +33,9 @@ int main()
 		{"Thibaut Pinot", "Cycling", "181cm", "White", "France", "Brown", "Yes"},
 		{"M.Phelps", "Swimming","181cm", "White", "USA", "Blue", "Yes"},
 		{"R.Federer", "Tennis","187cm", "White", "Switzerland", "Brown", "Yes"},
-		{"B.Maneff", "Tennis","187cm", "White", "Switzerland", "Brown", "Yes"}
+		{"C.McGregor", "MMA","187cm", "White", "UK", "Brown", "Yes"},
+		{"B.Maneff", "Tennis","187cm", "White", "Switzerland", "Brown", "Yes"},
+		{"A.Winner", "MMA","187cm", "White", "UK", "Brown", "Yes"}
 	};
 
 	std::vector<std::string> Attributes3{ "Sport" };
