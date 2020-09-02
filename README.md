@@ -6,5 +6,5 @@ AI C++ Project (Decision Tree).
 * The project aims to predict your choice from a dataset represented as a 2D array.
 * You can make your own datasets in main() and try the model. 
 * Constraints: 
-  * 1) Every model needs at least 1 attribute for training.
-  * 2) C++14 or above.
+  1) Every model needs at least 1 attribute for training.
+  2) C++14 or above.
