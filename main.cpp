@@ -54,7 +54,7 @@ int main()
 	};
 
 	std::vector<std::string> Answer;
-	DTree* Model = new DTree(DataSet2, Attributes2);
+	DTree *Model = new DTree(DataSet2, Attributes2);
 	Model->BuildTree();	// Train Model based on the set
 	//Model->PrintModel();
 	Answer = Model->Predict();
