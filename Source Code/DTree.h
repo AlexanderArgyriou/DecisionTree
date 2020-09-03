@@ -7,7 +7,7 @@
 #include <utility>
 #include <stdlib.h> 
 
-enum TheLabel     { Label };
+enum TheLabel                      { Label };
 enum TreeChlidren { Yes, No, NumOfChildren };
 
 class DTree
