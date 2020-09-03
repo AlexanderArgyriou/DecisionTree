@@ -8,7 +8,7 @@
 #include <utility>
 #include <stdlib.h> 
 
-enum TheLabel					   { Label };
+enum TheLabel     { Label };
 enum TreeChlidren { Yes, No, NumOfChildren };
 
 class DTree
@@ -19,49 +19,49 @@ class DTree
 			public:
 				std::string Q;
 				
-				inline Question() noexcept;											// Def Constructor
-				inline Question(const std::string &newQ) noexcept;					// Constructor
-				inline const Question &operator=(const Question &other) noexcept;	// operator = 
+				inline Question() noexcept;                                       // Def Constructor
+				inline Question(const std::string &newQ) noexcept;                // Constructor
+				inline const Question &operator=(const Question &other) noexcept; // operator = 
 		};	// Question
 
 		class Node
 		{
 			public:
-				bool								  Leaf;
+				bool                                  Leaf;
 				std::vector<std::vector<std::string>> Data;
-				std::vector<Node *>					  Children;
-				float								  Impurity;
-				Question							  Qst;
+				std::vector<Node *>                   Children;
+				float                                 Impurity;
+				Question                              Qst;
 
 				inline Node(const std::vector<std::vector<std::string>> &newData, 
-					bool isLeaf, float newImpurity) noexcept;						// Constructor
-				inline void Write() const noexcept;									// Write
+					bool isLeaf, float newImpurity) noexcept; // Constructor
+				inline void Write() const noexcept;               // Write
 		};	// Node
 
 		//---Private Methods---//
 		inline std::pair<std::string, int> 
-			FindTheRightQuestion(const std::vector<std::vector<std::string>> &Set) const noexcept;			// FindTheRightQuestion
+			FindTheRightQuestion(const std::vector<std::vector<std::string>> &Set) const noexcept;      // FindTheRightQuestion
 		inline float 
-			CaclulateImpurity(const std::vector<std::vector<std::string>> &DataSet) const noexcept;			// CaclulateImpurity
-		inline void BuildTree(Node *Tree) noexcept;															// BuildTree
-		inline void Deallocate(Node *Tree) noexcept;														// Deallocate
-		inline void PrintModel(Node *Tree) const noexcept;													// PrintModel
-		inline bool IsNumber(const std::string &S) const noexcept;											// IsNumber
+			CaclulateImpurity(const std::vector<std::vector<std::string>> &DataSet) const noexcept;     // CaclulateImpurity
+		inline void BuildTree(Node *Tree) noexcept;                                                         // BuildTree
+		inline void Deallocate(Node *Tree) noexcept;                                                        // Deallocate
+		inline void PrintModel(Node *Tree) const noexcept;                                                  // PrintModel
+		inline bool IsNumber(const std::string &S) const noexcept;                                          // IsNumber
 		inline double 
-			CalculateAvg(const std::vector<std::vector<std::string>> &DataSet, int Col) const noexcept;		// CalculateAvg
+			CalculateAvg(const std::vector<std::vector<std::string>> &DataSet, int Col) const noexcept; // CalculateAvg
 
 		//---Private Data--//
 		const std::vector<std::vector<std::string>> *TrainSet;
-		Node									    *Root;
-		const std::vector<std::string>				&Attributes;
+		Node                                        *Root;
+		const std::vector<std::string>              &Attributes;
 
 	public:
 		inline DTree(const std::vector<std::vector<std::string>> &Set, 
-			const std::vector<std::string> &Attrs) noexcept;							// Constructor
-		inline ~DTree() noexcept;														// Destructor
-		inline void BuildTree() noexcept;												// Train-Build Model
-		inline void PrintModel() const noexcept;										// Print Model
-		inline std::vector<std::string> Predict() const noexcept;						// Answer Questions
+			const std::vector<std::string> &Attrs) noexcept;       // Constructor
+		inline ~DTree() noexcept;                                      // Destructor
+		inline void BuildTree() noexcept;                              // Train-Build Model
+		inline void PrintModel() const noexcept;                       // Print Model
+		inline std::vector<std::string> Predict() const noexcept;      // Answer Questions
 };	// DTree
 
 //-------Question Class, public Section-------//
@@ -209,8 +209,8 @@ inline std::pair<std::string, int>
 DTree::FindTheRightQuestion(const std::vector<std::vector<std::string>> &Set) const noexcept
 {
 	// Right Question is the one with the lowest impurity, if such question does not exist, we have a leaf.
-	std::unordered_map<std::string, std::size_t>				Occ;
-	std::vector<std::pair<std::pair<std::string, int>, int>>	Impurities;
+	std::unordered_map<std::string, std::size_t>             Occ;
+	std::vector<std::pair<std::pair<std::string, int>, int>> Impurities;
 	//< <"orange", 3>, 2 > that means , orange is the question, with lowest occurrences 3, at position 2(col) on set.
 
 	for (std::size_t j = 1; j < Set[0].size(); ++j)
