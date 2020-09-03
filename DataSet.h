@@ -11,8 +11,8 @@ typedef std::vector<std::string> VecStr;
 class DataSet
 {
 	private:
-		Set			  Data;
-		VecStr		  Attributes;
+		Set           Data;
+		VecStr        Attributes;
 		std::ifstream File;
 		std::string   Filename;
 
@@ -37,8 +37,8 @@ class DataSet
 				exit(1);
 			}	// if
 
-			std::string		   Line;
-			std::string		   Token;
+			std::string Line;
+			std::string Token;
 			std::getline(File, Line);
 			std::istringstream iss(Line);
 			while (std::getline(iss, Token, '\t'))
@@ -48,8 +48,8 @@ class DataSet
 			while (std::getline(File, Line))
 			{     
 				std::istringstream iss(Line);
-				std::string		   Token;
-				VecStr			   Add;
+				std::string Token;
+				VecStr      Add;
 				while (std::getline(iss, Token, '\t'))   
 					Add.push_back(Token);
 				Data.push_back(Add);
