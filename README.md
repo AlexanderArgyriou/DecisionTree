@@ -6,6 +6,6 @@ AI C++ Project (Decision Tree).
 *	The project aims to predict your choice from a dataset represented as a 2D array in memory.
 *	You can make your own datasets as .txt files and train the model with them.
 *	Repository contains datasets(Top 100 richest athletes on Forbes, NBA Players from Draft, etc).
-*	Constraints: 
-  1)	Every dataset needs at least 1 attribute for training.
-  2)	C++14 or above.
+*	Constraints:
+    1. Every dataset needs at least 1 attribute for training.
+    2. C++14 or above.
