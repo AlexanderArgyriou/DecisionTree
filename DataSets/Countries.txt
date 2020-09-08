@@ -1,0 +1,253 @@
+Official_Name	Continent	CurrencyCode
+Afghanistan	Asia	AFN
+Åland Islands	Europe	EUR
+Albania	Europe	ALL
+Algeria	Africa	DZD
+American Samoa	Oceania	USD
+Andorra	Europe	EUR
+Angola	Africa	AOA
+Anguilla	North America	XCD
+Antarctica	Antarctica	U
+Antigua and Barbuda	North America	XCD
+Argentina	South America	ARS
+Armenia	Asia	AMD
+Aruba	North America	AWG
+Australia	Oceania	AUD
+Austria	Europe	EUR
+Azerbaijan	Asia	AZN
+Bahamas	North America	BSD
+Bahrain	Asia	BHD
+Bangladesh	Asia	BDT
+Barbados	North America	BBD
+Belarus	Europe	BYN
+Belgium	Europe	EUR
+Belize	North America	BZD
+Benin	Africa	XOF
+Bermuda	North America	BMD
+Bhutan	Asia	BTN
+Bolivia (Plurinational State of)	South America	BOB
+Bonaire, Sint Eustatius and Saba	North America	USD
+Bosnia and Herzegovina	Europe	BAM
+Botswana	Africa	BWP
+Bouvet Island	Antarctica	NOK
+Brazil	South America	BRL
+British Indian Ocean Territory	Asia	USD
+British Virgin Islands	North America	USD
+Brunei Darussalam	Asia	BND
+Bulgaria	Europe	BGN
+Burkina Faso	Africa	XOF
+Burundi	Africa	BIF
+Cambodia	Asia	KHR
+Cameroon	Africa	XAF
+Canada	North America	CAD
+Cabo Verde	Africa	CVE
+Cayman Islands	North America	KYD
+Central African Republic	Africa	XAF
+Chad	Africa	XAF
+Chile	South America	CLP
+China	Asia	CNY
+Christmas Island	Oceania	AUD
+Cocos (Keeling) Islands	Asia	AUD
+Colombia	South America	COP
+Comoros	Africa	KMF
+Cook Islands	Oceania	NZD
+Costa Rica	North America	CRC
+Croatia	Europe	HRK
+Cuba	North America	CUP
+Curaçao	North America	ANG
+Cyprus	Europe	EUR
+Czechia	Europe	CZK
+Democratic Republic of the Congo	Africa	CDF
+Denmark	Europe	DKK
+Djibouti	Africa	DJF
+Dominica	North America	XCD
+Dominican Republic	North America	DOP
+Ecuador	South America	USD
+Egypt	Africa	EGP
+El Salvador	North America	USD
+Equatorial Guinea	Africa	XAF
+Eritrea	Africa	ERN
+Estonia	Europe	EUR
+Ethiopia	Africa	ETB
+Falkland Islands (Malvinas)	South America	FKP
+Faroe Islands	Europe	DKK
+Fiji	Oceania	FJD
+Finland	Europe	EUR
+France	Europe	EUR
+French Guiana	South America	EUR
+French Polynesia	Oceania	XPF
+French Southern Territories	Antarctica	EUR
+Gabon	Africa	XAF
+Gambia	Africa	GMD
+Georgia	Asia	GEL
+Germany	Europe	EUR
+Ghana	Africa	GHS
+Gibraltar	Europe	GIP
+Greece	Europe	EUR
+Greenland	North America	DKK
+Grenada	North America	XCD
+Guadeloupe	North America	EUR
+Guam	Oceania	USD
+Guatemala	North America	GTQ
+Guernsey	Europe	GBP
+Guinea	Africa	GNF
+Guinea-Bissau	Africa	XOF
+Guyana	South America	GYD
+Haiti	North America	HTG
+Heard Island and McDonald Islands	Antarctica	AUD
+Honduras	North America	HNL
+China, Hong Kong Special Administrative Region	Asia	HKD
+Hungary	Europe	HUF
+Iceland	Europe	ISK
+India	Asia	INR
+Indonesia	Asia	IDR
+Iran (Islamic Republic of)	Asia	IRR
+Iraq	Asia	IQD
+Ireland	Europe	EUR
+Isle of Man	Europe	GBP
+Israel	Asia	ILS
+Italy	Europe	EUR
+Côte d'Ivoire	Africa	XOF
+Jamaica	North America	JMD
+Japan	Asia	JPY
+Jersey	Europe	GBP
+Jordan	Asia	JOD
+Kazakhstan	Asia	KZT
+Kenya	Africa	KES
+Kiribati	Oceania	AUD
+U	Europe	EUR
+Kuwait	Asia	KWD
+Kyrgyzstan	Asia	KGS
+Lao People's Democratic Republic	Asia	LAK
+Latvia	Europe	EUR
+Lebanon	Asia	LBP
+Lesotho	Africa	LSL
+Liberia	Africa	LRD
+Libya	Africa	LYD
+Liechtenstein	Europe	CHF
+Lithuania	Europe	EUR
+Luxembourg	Europe	EUR
+China, Macao Special Administrative Region	Asia	MOP
+The former Yugoslav Republic of Macedonia	Europe	MKD
+Madagascar	Africa	MGA
+Malawi	Africa	MWK
+Malaysia	Asia	MYR
+Maldives	Asia	MVR
+Mali	Africa	XOF
+Malta	Europe	EUR
+Marshall Islands	Oceania	USD
+Martinique	North America	EUR
+Mauritania	Africa	MRO
+Mauritius	Africa	MUR
+Mayotte	Africa	EUR
+Mexico	North America	MXN
+Micronesia (Federated States of)	Oceania	USD
+Republic of Moldova	Europe	MDL
+Monaco	Europe	EUR
+Mongolia	Asia	MNT
+Montenegro	Europe	EUR
+Montserrat	North America	XCD
+Morocco	Africa	MAD
+Mozambique	Africa	MZN
+Myanmar	Asia	MMK
+Namibia	Africa	NAD
+Nauru	Oceania	AUD
+Nepal	Asia	NPR
+Netherlands	Europe	EUR
+U	North America	ANG
+New Caledonia	Oceania	XPF
+New Zealand	Oceania	NZD
+Nicaragua	North America	NIO
+Niger	Africa	XOF
+Nigeria	Africa	NGN
+Niue	Oceania	NZD
+Norfolk Island	Oceania	AUD
+Democratic People's Republic of Korea	Asia	KPW
+Northern Mariana Islands	Oceania	USD
+Norway	Europe	NOK
+Oman	Asia	OMR
+Pakistan	Asia	PKR
+Palau	Oceania	USD
+State of Palestine	Asia	ILS
+Panama	North America	PAB
+Papua New Guinea	Oceania	PGK
+Paraguay	South America	PYG
+Peru	South America	PEN
+Philippines	Asia	PHP
+Pitcairn	Oceania	NZD
+Poland	Europe	PLN
+Portugal	Europe	EUR
+Puerto Rico	North America	USD
+Qatar	Asia	QAR
+Congo	Africa	XAF
+Réunion	Africa	EUR
+Romania	Europe	RON
+Russian Federation	Europe	RUB
+Rwanda	Africa	RWF
+Saint Barthélemy	North America	EUR
+Saint Helena	Africa	SHP
+Saint Kitts and Nevis	North America	XCD
+Saint Lucia	North America	XCD
+Saint Martin (French Part)	North America	EUR
+Saint Pierre and Miquelon	North America	EUR
+Saint Vincent and the Grenadines	North America	XCD
+Samoa	Oceania	WST
+San Marino	Europe	EUR
+Sao Tome and Principe	Africa	STD
+Saudi Arabia	Asia	SAR
+Senegal	Africa	XOF
+Serbia	Europe	RSD
+U	Europe	RSD
+Seychelles	Africa	SCR
+Sierra Leone	Africa	SLL
+Singapore	Asia	SGD
+Sint Maarten (Dutch part)	North America	ANG
+Slovakia	Europe	EUR
+Slovenia	Europe	EUR
+Solomon Islands	Oceania	SBD
+Somalia	Africa	SOS
+South Africa	Africa	ZAR
+South Georgia and the South Sandwich Islands	Antarctica	GBP
+Republic of Korea	Asia	KRW
+South Sudan	Africa	SSP
+Spain	Europe	EUR
+Sri Lanka	Asia	LKR
+Sudan	Africa	SDG
+Suriname	South America	SRD
+Svalbard and Jan Mayen Islands	Europe	NOK
+Eswatini	Africa	SZL
+Sweden	Europe	SEK
+Switzerland	Europe	CHF
+Syrian Arab Republic	Asia	SYP
+Republic of China	Asia	TWD
+Tajikistan	Asia	TJS
+United Republic of Tanzania	Africa	TZS
+Thailand	Asia	THB
+Timor-Leste	Oceania	USD
+Togo	Africa	XOF
+Tokelau	Oceania	NZD
+Tonga	Oceania	TOP
+Trinidad and Tobago	North America	TTD
+Tunisia	Africa	TND
+Turkey	Asia	TRY
+Turkmenistan	Asia	TMT
+Turks and Caicos Islands	North America	USD
+Tuvalu	Oceania	AUD
+United States Virgin Islands	North America	USD
+Uganda	Africa	UGX
+Ukraine	Europe	UAH
+United Arab Emirates	Asia	AED
+United Kingdom of Great Britain and Northern Ireland	Europe	GBP
+United States of America	North America	USD
+United States Minor Outlying Islands	Oceania	USD
+Uruguay	South America	UYU
+Uzbekistan	Asia	UZS
+Vanuatu	Oceania	VUV
+Holy See	Europe	EUR
+Venezuela (Bolivarian Republic of)	South America	VES
+Viet Nam	Asia	VND
+Wallis and Futuna Islands	Oceania	XPF
+Western Sahara	Africa	MAD
+Yemen	Asia	YER
+Zambia	Africa	ZMW
+Zimbabwe	Africa	ZWL
