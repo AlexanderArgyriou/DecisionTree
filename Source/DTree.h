@@ -31,7 +31,7 @@ class DTree
 
 				inline Question() noexcept;                                       // Def Constructor
 				inline Question(const std::string &newQ, 
-					const Pair_Str_Int &newQInfo) noexcept;                       // Constructor
+					const Pair_Str_Int &newQInfo) noexcept;                   // Constructor
 				inline const Question &operator=(const Question &other) noexcept; // operator = 
 		};	// Question
 
@@ -54,21 +54,21 @@ class DTree
 			FindTheRightQuestion(const Vec_vec_str &Set) const noexcept;   // FindTheRightQuestion
 		inline float 
 			CaclulateImpurity(const Vec_vec_str &DataSet) const noexcept;  // CaclulateImpurity
-		inline void BuildTree(Node *Tree) noexcept;                        // BuildTree
-		inline void Deallocate(Node *Tree) noexcept;                       // Deallocate
-		inline void PrintModel(Node *Tree) const noexcept;                 // PrintModel
-		inline bool IsNumber(const std::string &S) const noexcept;         // IsNumber
-		inline std::size_t TreeHeight(Node *Tree) const noexcept;          // TreeHeight
+		inline void BuildTree(Node *Tree) noexcept;                            // BuildTree
+		inline void Deallocate(Node *Tree) noexcept;                           // Deallocate
+		inline void PrintModel(Node *Tree) const noexcept;                     // PrintModel
+		inline bool IsNumber(const std::string &S) const noexcept;             // IsNumber
+		inline std::size_t TreeHeight(Node *Tree) const noexcept;              // TreeHeight
 		inline void LeafNodesPerLvl(Node *Tree, 
 			Vec_sz_t &Lvls, int Lvl) const noexcept;                       // LeafNodesPerLvl
 		inline float
 			CalculateInfoGain(const Vec_vec_str &DataSetY,
 				const Vec_vec_str &DataSetN,
-				const Vec_vec_str &MainSet) const noexcept;                // CalculateInfoGain
+				const Vec_vec_str &MainSet) const noexcept;            // CalculateInfoGain
 		inline void 
 			CalculateSetYN(Vec_vec_str &DataSetY, Vec_vec_str &DataSetN,
 				const Vec_vec_str &Set,
-				std::size_t Col, std::string Quest) const noexcept;        // CalculateSetYN
+				std::size_t Col, std::string Quest) const noexcept;    // CalculateSetYN
 		inline void Test(Node *Tree, 
 			const Vec_str &TD) const noexcept;                             // Test
 
@@ -79,7 +79,7 @@ class DTree
 
 	public:
 		inline DTree(const Vec_vec_str &Set,
-			const Vec_str &Attrs) noexcept;                         // Constructor
+			const Vec_str &Attrs) noexcept;                     // Constructor
 		inline ~DTree() noexcept;                                   // Destructor
 		inline void BuildTree() noexcept;                           // Train-Build Model
 		inline void PrintModel() const noexcept;                    // Print Model
