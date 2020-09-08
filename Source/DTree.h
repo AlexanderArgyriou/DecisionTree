@@ -46,7 +46,7 @@ class DTree
 
 				inline Node(const Vec_vec_str &newData,
 					bool isLeaf, float newImpurity) noexcept;   // Constructor
-				inline void Write() const noexcept;             // Write
+				inline void Write() const noexcept;                 // Write
 		};	// Node
 
 		//---Private Methods---//
